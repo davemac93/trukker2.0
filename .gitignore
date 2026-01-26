@@ -1,0 +1,51 @@
+# --- System Files ---
+.DS_Store
+Thumbs.db
+
+# --- Python / FastAPI ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+.pytest_cache/
+.coverage
+htmlcov/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+
+# --- Node.js / Next.js ---
+node_modules/
+/out/
+/.next/
+.npm
+.vercel
+*.tsbuildinfo
+
+# --- Environment & Secrets ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+
+# --- Docker ---
+.docker/
+# Only ignore data if you persist DB data locally
+# postgres_data/ 
+
+# --- IDEs ---
+.vscode/
+.idea/
