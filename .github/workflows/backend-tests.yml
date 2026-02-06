@@ -23,6 +23,6 @@ jobs:
         pip install fastapi uvicorn sqlalchemy psycopg2-binary pytest httpx python-dotenv supabase
     - name: Run tests
       env:
-        PYTHONPATH: .
+        PYTHONPATH: .:backend
       run: |
         pytest tests/backend/
