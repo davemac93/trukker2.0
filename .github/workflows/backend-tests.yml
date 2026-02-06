@@ -20,8 +20,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install fastapi uvicorn sqlalchemy psycopg2-binary pytest httpx python-dotenv supabase
-    - name: Run tests
+        pip install -r backend/requirements.txt
       env:
         PYTHONPATH: .:backend
       run: |
